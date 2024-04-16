@@ -17,7 +17,7 @@ function CreateTask() {
     e.preventDefault();
     dispatch(addToDo({ title: title, desc: desc, status: "In-Progress" }));
     dispatch(updateIsCreate());
-    toast("Task Deleted !", {
+    toast("Task Created !", {
       icon: "🟢",
     });
   };
